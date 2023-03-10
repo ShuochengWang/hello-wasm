@@ -1,0 +1,19 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+edition = "2021"
+description = "A sample project with wasm-pack"
+categories = ["wasm"]
+authors = ["Shuocheng Wang <wangshch5@outlook.com>"]
+homepage = "https://github.com/ShuochengWang/hello-wasm"
+repository = "https://github.com/ShuochengWang/hello-wasm"
+readme = "README.md"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
